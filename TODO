@@ -1,0 +1,7 @@
+
+
+
+Production deployment
+
+Gunicorn , 
+static files :https://devcenter.heroku.com/articles/django-assets

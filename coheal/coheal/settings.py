@@ -128,6 +128,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'coheal',
+    'coheal_user',
     'social.apps.django_app.default',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',

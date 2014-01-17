@@ -23,7 +23,6 @@ if DEBUG:
             'PORT': '',                      # Set to empty string for default.
         }
     }
-    
 else:
     #in that case, heroku will manage it https://devcenter.heroku.com/articles/cleardb#using-cleardb-with-python-django
     DATABASES = {}
@@ -131,7 +130,7 @@ INSTALLED_APPS = (
     'coheal',
     'social.apps.django_app.default',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )

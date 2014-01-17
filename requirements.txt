@@ -1,0 +1,5 @@
+Django==1.5.5
+argparse==1.2.1
+djangotoolbox==1.6.2
+gunicorn==18.0
+wsgiref==0.1.2

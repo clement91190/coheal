@@ -129,6 +129,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'coheal',
+    'social.apps.django_app.default',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
@@ -166,4 +167,10 @@ LOGGING = {
     }
 }
 
-
+AUTHENTICATION_BACKENDS = (
+    'social.backends.google.GoogleOpenId',
+    'social.backends.google.GoogleOAuth2',
+    'social.backends.google.GoogleOAuth',
+    'social.backends.facebook.FacebookOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+)

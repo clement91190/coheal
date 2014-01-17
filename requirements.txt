@@ -4,5 +4,11 @@ argparse==1.2.1
 dj-static==0.0.5
 djangotoolbox==1.6.2
 gunicorn==18.0
+oauthlib==0.6.0
+python-openid==2.2.5
+python-social-auth==0.1.20
+requests==2.2.0
+requests-oauthlib==0.4.0
+six==1.5.2
 static==0.4
 wsgiref==0.1.2
